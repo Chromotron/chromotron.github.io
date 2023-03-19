@@ -1,0 +1,9 @@
+[submodule "themes/nightfall"]
+	path = themes/nightfall
+	url = https://github.com/LordMathis/hugo-theme-nightfall
+[submodule "themes/academic"]
+	path = themes/academic
+	url = https://github.com/wowchemy/starter-hugo-academic
+[submodule "themes/wowchemy"]
+	path = themes/wowchemy
+	url = https://github.com/wowchemy/wowchemy-hugo-themes/
