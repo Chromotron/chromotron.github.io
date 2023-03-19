@@ -4,26 +4,11 @@ title = 'My New Hugo Site'
 theme = 'nightfall'
 
 [params]
-author = "Mr Hugo"
-user = "hello"
-hostname = "gohugo.io"
+author = "Daniel Harrer"
+user = "chromotron"
+hostname = "github.io"
 
 [[params.social]]
 key = 0
 name = "github"
-url = "https://github.com/gohugoio"
-
-[[params.social]]
-key = 1
-name = "twitter"
-url = "https://www.example.com"
-
-[[params.social]]
-key = 2
-name = "linkedin"
-url = "https://www.example.com"
-
-[[params.social]]
-key = 3
-name = "email"
-url = "mailto:email@example.com"
+url = "https://github.com/chromotron"
