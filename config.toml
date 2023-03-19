@@ -12,3 +12,9 @@ hostname = "github.io"
 key = 0
 name = "github"
 url = "https://github.com/chromotron"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
