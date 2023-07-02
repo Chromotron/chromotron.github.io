@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'chromoton.org'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Chromoton's Blog"
 theme = 'nightfall'
 
 [params]
@@ -23,3 +23,16 @@ url = "https://github.com/chromotron"
     name = "about"
     weight = 0
     url = "/about"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[related]
+  toLower = true
+
+[[related.indices]]
+  name = 'series'
+  weight = 100
+  includeNewer = true

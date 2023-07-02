@@ -1,0 +1,26 @@
+{{ define "title"}}
+{{ .Title }} | {{ .Site.Params.author }}
+{{ end }}
+
+
+{{ define "main" }}
+<div class="postWrapper">
+    <h1>{{ .Title }}</h1>
+    {{ if isset  .Params "series"}}
+    {{ $name := .Params.series }}
+    <div>
+        <p>You are reading the <a href="{{ `series/` | relLangURL }}{{$name | urlize | lower }}">{{$name}}</a> series
+            {{ $p := sort (where .Site.RegularPages ".Params.series" "eq" .Params.Series) "Date" }}
+            <ol>
+            {{ range $p }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+            {{ end }}
+            </ol>
+        </p>
+    </div>
+    {{end}}
+    <div>
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}
