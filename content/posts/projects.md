@@ -14,7 +14,7 @@ This is an overview of some of my larger projects I am working on, completed or 
 - Various [microcomputer builds](microcomputer.md) (Arduino, Raspberry Pi) in support of multiple projects. (finished/ongoing)
 - [Extraction of alkali metals](alkali-metals.md) from their salts based on a low temperature catalytic process. (sodium and potassium finished, lithium and caesium on halt).
 - [Synthesizing sapphires and rubies.](corundum.md) (on halt)
-- [Liquid nitrogen plant](liquid-nitogen.md) via the [Hampson-Linde cycle](https://en.wikipedia.org/wiki/Hampson%E2%80%93Linde_cycle). (ongoing)
+- [Liquid nitrogen plant](liquid-nitrogen.md) via the [Hampson-Linde cycle](https://en.wikipedia.org/wiki/Hampson%E2%80%93Linde_cycle). (ongoing)
 - A [Fusor](fusor.md), a small fusion reactor, sometimes also described as "star in a bottle". (ongoing)
 - Mass spectrometer to analyze materials. (planned)
 - Scanning electron microscope. (planned)
