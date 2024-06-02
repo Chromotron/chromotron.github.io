@@ -1,13 +1,13 @@
 ---
-title: "Reactor Core"
+title: "Deuterium injector"
 date: 2023-06-02T22:34:32+02:00
 draft: false
 ---
 
-Deuterium injector
-===
 
-The aim of this component is to guarantee a steady controlled inflow of deuterium gas into the [reactor chamber](reactor-core.md). Only a very small amount is needed, which on one hand makes it easy to produce deuterium at a sufficient rate, but on the other hand requires special components to regulate such small flows.
+The aim of this component is to guarantee a steady controlled inflow of deuterium gas into the [reactor chamber](reactor-core.md). Only a very small amount is needed at a few µbar, which on one hand makes it easy to produce deuterium at a sufficient rate, but on the other hand requires special components to regulate a small flow.
+
+
 
 Why deuterium?
 ---
